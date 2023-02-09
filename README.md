@@ -6,6 +6,6 @@
 ### on linux: `python3 path/to/the/file` <br>
 ### for example if the path is `home`:
 ### on windows: `python home/script.py`
-### on kali: `python3 /home/script.py`
+### on kali: `python /home/script.py`
 ## 4- if you changed your SQL credentials enter it, else enter the default (root,)
 ## 5- go to `localhost/bwapp/login.php`
