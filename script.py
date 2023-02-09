@@ -1,7 +1,7 @@
 import mysql.connector as mysql
 
 try:
-    connect = mysql.connect(host="localhost",user=input("Enter User name (it's root by default) "),password=input("enter your password (it's blank by default) "))
+    connect = mysql.connect(host="127.0.0.1",user=input("Enter User name (it's root by default) "),password=input("enter your password (it's blank by default) "))
     try:
         connect.cmd_query("create database bWAPP")
     except mysql.errors.DatabaseError:
